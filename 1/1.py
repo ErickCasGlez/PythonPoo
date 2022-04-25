@@ -1,8 +1,9 @@
 from importlib.util import set_loader
 
 
-class Proyecto:
+class Proyecto: #Clase
     def __init__(self, codigo, nombre, precio): #self se refiere a los mismos atributos de la clase
+        #Atributos
         self.__codigo = codigo #__ aquí se refiere a un atributo privado
         self.__nombre = nombre
         self.__precio = precio
