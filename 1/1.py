@@ -21,7 +21,7 @@ class Proyecto:
     def nombre(self):
         return self.__nombre
 
-    @codigo.setter #setter
+    @nombre.setter #setter
     def nombre(self, valor):
         self.__nombre = valor
 
@@ -29,6 +29,6 @@ class Proyecto:
     def precio(self):
         return self.__precio
 
-    @codigo.setter #setter
+    @precio.setter #setter
     def precio(self, valor):
         self.__precio = valor
