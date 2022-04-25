@@ -32,3 +32,6 @@ class Proyecto:
     @precio.setter #setter
     def precio(self, valor):
         self.__precio = valor
+
+    def __str__(self):
+        return 'Codigo: ' + str(self.__codigo) + ', nombre: ' + self.__nombre + ', precio: ' + str(self.__precio)
