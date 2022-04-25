@@ -33,6 +33,11 @@ class Proyecto:
     def precio(self, valor):
         self.__precio = valor
 
+#Añadiendo un método
+    def calcular_total(self, unidades):
+        return self.precio * unidades
+
+
     def __str__(self):
         return 'Codigo: ' + str(self.__codigo) + ', nombre: ' + self.__nombre + ', precio: ' + str(self.__precio)
 
@@ -41,3 +46,6 @@ p1 = Proyecto(1, "Producto 1", 8)
 print(p1.codigo)
 print(p1.nombre)
 print(p1.precio)
+
+#Haciendo uso del método
+print(p1.calcular_total(3))
