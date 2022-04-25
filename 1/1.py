@@ -35,3 +35,7 @@ class Proyecto:
 
     def __str__(self):
         return 'Codigo: ' + str(self.__codigo) + ', nombre: ' + self.__nombre + ', precio: ' + str(self.__precio)
+
+p1 = Proyecto(1, "Producto 1", 8)
+
+print(p1.codigo)
