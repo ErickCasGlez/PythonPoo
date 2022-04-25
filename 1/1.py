@@ -39,3 +39,5 @@ class Proyecto:
 p1 = Proyecto(1, "Producto 1", 8)
 
 print(p1.codigo)
+print(p1.nombre)
+print(p1.precio)
